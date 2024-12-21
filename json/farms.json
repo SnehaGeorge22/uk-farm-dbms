@@ -1,0 +1,53 @@
+{
+  "_id": "673dad31472c989751e38b27",
+  "farm_name": "South Farm",
+  "farm_location": "Kent",
+  "crops": [
+    {
+      "crop_id": "673dad31472c989751e38b28",
+      "crop_name": "Wheat",
+      "planting_date": "2023-03-15T00:00:00.000Z",
+      "harvest_date": "2023-08-15T00:00:00.000Z",
+      "crop_yield": 3000,
+      "resource_usage": [
+        {
+          "resource_name": "Water",
+          "quantity_used": 1000,
+          "application_date": "2023-10-03T00:00:00.000Z",
+          "labour_hours_used": 150
+        }
+      ]
+    },
+    {
+      "crop_id": "673dad31472c989751e38b29",
+      "crop_name": "Barley",
+      "planting_date": "2023-03-16T16:00:00.000Z",
+      "harvest_date": "2023-08-20T16:00:00.000Z",
+      "crop_yield": 2800,
+      "resource_usage": [
+        {
+          "resource_name": "Fertilizer",
+          "quantity_used": 200,
+          "application_date": "2023-03-12T00:00:00.000Z",
+          "labour_hours_used": 120
+        }
+      ]
+    }
+  ],
+  "soil_metrics": {
+    "ph_level": 6.5,
+    "nitrogen_level": 50,
+    "phosphorus_level": 20,
+    "potassium_level": 180
+  },
+  "farm_water_source": ["River"],
+  "sustainability_initiatives": [
+    {
+      "initiative_id": "673dad31472c989751e38b33",
+      "initiative_desc": "Organic Farming",
+      "initiated_date": "2023-01-01T00:00:00.000Z",
+      "expected_impact": "Increase in yield",
+      "environ_impact_score": 4
+    }
+  ]
+}
